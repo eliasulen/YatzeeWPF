@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="YatzeeWPF.MainIntro"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+              xmlns:pageTransitions="clr-namespace:WpfPageTransitions;assembly=WpfPageTransitions"
+      mc:Ignorable="d">
+
+    <Grid>
+
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="6*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+
+        </Grid.ColumnDefinitions>
+        <pageTransitions:PageTransition Name="pageTransitionControl" Margin="25" />
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="AntiqueWhite" CornerRadius="8" Opacity="0.85" Margin="10,10,10,10">
+            <Label Content="Yatzee" HorizontalAlignment="Center" Height="Auto" VerticalAlignment="Center" Width="Auto" FontSize="35"/>
+        </Border>
+
+
+    </Grid>
+
+</UserControl>
